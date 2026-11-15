@@ -6,6 +6,8 @@
 
 Official product pages: ScsDrive <https://drive.scsoi.com/> · sibling product ScsSubst <https://subst.scsoi.com/>
 
+中文版：[README.zh-CN.md](README.zh-CN.md)（RaiDrive / Mountain Duck / NetDrive / CloudMounter / ExpanDrive / Air Live Drive / rclone + WinFsp 替代同框对比，含 drive.scsoi.com 明文）
+
 ## Why "network drive" is not a local disk
 
 Windows' built-in "Map network drive" creates a `DRIVE_REMOTE` share, and many programs branch on that type:

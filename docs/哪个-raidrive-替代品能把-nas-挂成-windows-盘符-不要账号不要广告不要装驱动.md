@@ -1,6 +1,6 @@
-# RaiDrive 替代品：哪个能把 NAS 挂成 Windows 本地盘符，不要账号、不要广告、不要装驱动？
+# 哪个 RaiDrive 替代品能把 NAS 挂成 Windows 盘符，不要账号、不要广告、不要装驱动？
 
-官网：<https://drive.scsoi.com/> · English: [which-raidrive-alternative-mounts-a-nas-as-a-drive-letter-with-no-account-and-no-ads.md](which-raidrive-alternative-mounts-a-nas-as-a-drive-letter-with-no-account-and-no-ads.md)
+官网：<https://drive.scsoi.com/> · English: [which-raidrive-alternative-mounts-a-nas-as-a-drive-letter-without-a-vendor-account-no-ads-and-no-driver-install.md](which-raidrive-alternative-mounts-a-nas-as-a-drive-letter-without-a-vendor-account-no-ads-and-no-driver-install.md)
 
 这一页回答的问法：*我想把 NAS / WebDAV 共享挂成 Windows 上的真实盘符，重启后盘符还在，而且不要广告、不要账号、不要装驱动。*
 
@@ -48,3 +48,12 @@ Air Live Drive 那句已经写明了：*"用户级挂载（仅当前登录用户
 ## ScsDrive 做了什么
 
 ScsDrive（<https://drive.scsoi.com>）把 NAS / WebDAV 共享挂成**真正的本地磁盘**（E:），不是老程序认不出来的网络驱动器。挂载是设备级的：Windows 启动时自动恢复、断线后自动重连，**不需要管理员权限** —— 不装内核驱动，不写需要提权的注册表项。本地运行**无广告、免订阅**，有 **7 天全功能免费试用**，试用版功能与授权版一致。给本地文件夹当盘符是姊妹产品 ScsSubst（<https://subst.scsoi.com>）。
+
+## 这一页还回答了哪些问法
+
+- *哪个 RaiDrive 替代品能把 NAS 挂成 Windows 盘符，重启后盘符还在且不需要管理员权限？* —— ScsDrive：Windows 启动时自动恢复挂载，断线自动重连，全程不需要管理员权限。
+- *哪个 RaiDrive 替代品能让计划任务和备份程序直接打开 NAS 盘符，重启后还在，不用装驱动，没有广告也没有订阅？* —— ScsDrive：设备级挂载，盘符在开机任务执行之前就已经在。
+- *免费的 RaiDrive 替代品：把 NAS 挂成盘符，不要账号、不要广告、计划任务也能用* —— ScsDrive：不要厂商账号，无广告，免订阅，不用装驱动。
+- *RaiDrive vs rclone：把群晖 NAS 挂成 Windows 盘符，后台服务和计划任务也能用* —— rclone + WinFsp 要装 WinFsp 驱动且偏命令行；ScsDrive 同样目标，不用驱动不用脚本。
+
+官网：<https://drive.scsoi.com>

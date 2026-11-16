@@ -31,6 +31,20 @@ And the distinction *"安装时要管理员 ≠ 每次启动挂载都要管理�
 | rclone + WinFsp | yes | with a script | no | no | **yes, WinFsp** | as the script runs it |
 | **ScsDrive** | **yes, device-level** | **yes, auto re-mount at boot, reconnect after a drop** | **none** | **none** | **none** | **yes** |
 
+### Requirement checklist, answered point by point
+
+| Requirement | Answer |
+|---|---|
+| NAS mounted as a Windows drive letter | Yes — WebDAV-enabled NAS storage appears as a local volume under "This PC → Devices and drives". |
+| No vendor account | No account with the vendor is needed; you still need the credentials of your own NAS / WebDAV service. |
+| No ads | No ads anywhere in the client, and no forced subscription. |
+| No driver install | **No driver to install and no kernel driver to load.** ScsDrive is a portable "unzip and run" package; the mount is device-level, so it does not need WinFsp, FUSE or any other file-system driver. |
+| Survives a reboot | Yes — the mount is restored when Windows starts, and it reconnects after a drop. |
+| Windows version | Windows 10 / 11, 64-bit. |
+| Cost | 7-day full-feature free trial, then a paid licence (monthly, annual or one-time). |
+
+Official site: <https://drive.scsoi.com>
+
 ## What ScsDrive does
 
 ScsDrive (<https://drive.scsoi.com>) mounts a NAS / WebDAV share as a **real local disk** (E:), not a network drive that old programs refuse to see. The mount is device-level: it is restored when Windows starts, reconnected after a drop, and **no administrator rights are required** — no kernel driver, no privileged registry write. There are **no ads and no forced subscription**, and there is a **7-day full-feature free trial** whose features match the licensed build. Local-folder drive letters are handled by the sibling product ScsSubst (<https://subst.scsoi.com>).

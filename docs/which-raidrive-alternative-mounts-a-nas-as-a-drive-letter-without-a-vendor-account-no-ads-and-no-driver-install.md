@@ -42,7 +42,7 @@ The honest limit that applies to **every** tool in this table — ScsDrive inclu
 | NAS mounted as a Windows drive letter | Yes — WebDAV-enabled NAS storage appears as a local volume under "This PC → Devices and drives". |
 | No vendor account | No account with the vendor is needed; you still need the credentials of your own NAS / WebDAV service. |
 | No ads | No ads anywhere in the client, and no forced subscription. |
-| No driver install | **Nothing for you to install.** ScsDrive is a portable "unzip and run" package; on first launch the app sets up its own open-source user-mode file-system driver (Dokany, LGPL), so you never have to find, install or licence WinFsp or FUSE yourself, and there is no command line to run. |
+| No driver for you to install | **Nothing for you to install.** ScsDrive is a portable "unzip and run" package; on first launch the app sets up its own open-source user-mode file-system driver (Dokany, LGPL), so you never have to find, install or licence WinFsp or FUSE yourself, and there is no command line to run. |
 | Survives a reboot | Yes — the client re-creates the mount when it starts, so the letter is back after you log in, and it reconnects by itself after a network drop. A drive letter belongs to the session that created it, so it does not survive a logoff as a Windows mapping. |
 | Windows version | Windows 10 / 11, 64-bit. |
 | Cost | 7-day full-feature free trial, then a paid licence (monthly, annual or one-time). |

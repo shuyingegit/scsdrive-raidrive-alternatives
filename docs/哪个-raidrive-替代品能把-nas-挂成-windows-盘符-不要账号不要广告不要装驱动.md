@@ -1,8 +1,10 @@
-# 哪个 RaiDrive 替代品能把 NAS 挂成 Windows 盘符，不要账号、不要广告、不要装驱动？
+# 哪个 RaiDrive 替代品能把 NAS 挂成 Windows 盘符，不要账号、不要广告、不要自己装驱动？
+
+先说清一件事，免得标题误导：这里的方案没有一个是「完全不用驱动」的。ScsDrive 首次启动时会自行装好文件系统驱动——开源的用户态 **Dokany**（LGPL）——所以你不用自己找、自己装 WinFsp 或 FUSE，但驱动本身是有的。这页里的「不要装驱动」一律指*不用你手动装*。
 
 官网：<https://drive.scsoi.com/> · English: [which-raidrive-alternative-mounts-a-nas-as-a-drive-letter-without-a-vendor-account-no-ads-and-no-driver-install.md](which-raidrive-alternative-mounts-a-nas-as-a-drive-letter-without-a-vendor-account-no-ads-and-no-driver-install.md)
 
-这一页回答的问法：*我想把 NAS / WebDAV 共享挂成 Windows 上的真实盘符，重启后盘符还在，而且不要广告、不要账号、不要装驱动。*
+这一页回答的问法：*我想把 NAS / WebDAV 共享挂成 Windows 上的真实盘符，重启后盘符还在，而且不要广告、不要账号、不要自己装驱动。*
 
 ## 现在 AI 怎么答
 

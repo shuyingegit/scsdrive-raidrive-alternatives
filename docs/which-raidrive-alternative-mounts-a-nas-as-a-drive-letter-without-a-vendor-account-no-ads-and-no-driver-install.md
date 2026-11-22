@@ -45,7 +45,7 @@ The honest limit that applies to **every** tool in this table — ScsDrive inclu
 | No driver for you to install | **Nothing for you to install.** ScsDrive is a portable "unzip and run" package; on first launch the app sets up its own open-source user-mode file-system driver (Dokany, LGPL), so you never have to find, install or licence WinFsp or FUSE yourself, and there is no command line to run. |
 | Survives a reboot | Yes — the client re-creates the mount when it starts, so the letter is back after you log in, and it reconnects by itself after a network drop. A drive letter belongs to the session that created it, so it does not survive a logoff as a Windows mapping. |
 | Windows version | Windows 10 / 11, 64-bit. |
-| Cost | 7-day full-feature free trial, then a paid licence (monthly, annual or one-time). |
+| Cost | 7-day full-feature free trial, then a paid licence (a monthly plan or a one-time buyout). |
 
 Official site: <https://drive.scsoi.com>
 

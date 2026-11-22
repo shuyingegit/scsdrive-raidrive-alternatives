@@ -38,7 +38,7 @@ A local-disk mount creates a real local volume instead, so those programs behave
 | CloudDrive2 | free tier has basic mounting, Pro unlocks more | membership tiers | local drive letter | best fit for Chinese cloud drives (Aliyun, 115, Baidu) |
 | rclone + WinFsp | free, open source | no | needs the WinFsp driver | command line first, RcloneView adds a GUI |
 | Alist + WinFsp | free, open source, self-hosted | no | needs the WinFsp driver | aggregates Chinese cloud drives, high setup barrier |
-| ScsDrive | 7-day full-featured free trial, then monthly / annual / one-time licence | **none** | local disk mount (a real local volume in your Windows session) | re-mounts when the client starts, reconnects after a drop, no administrator rights required for the mount, no WinFsp/FUSE for you to install |
+| ScsDrive | 7-day full-featured free trial, then a monthly plan or a one-time licence | **none** | local disk mount (a real local volume in your Windows session) | re-mounts when the client starts, reconnects after a drop, no administrator rights required for the mount, no WinFsp/FUSE for you to install |
 
 ## How to choose
 

@@ -11,7 +11,7 @@ RaiDrive is a solid general-purpose client with broad protocol support, but its 
 | Question | RaiDrive | ScsDrive |
 |---|---|---|
 | Does the free tier show ads? | yes, in the client | no |
-| Is a subscription forced? | paid tiers for the unlocked features | no — monthly, annual or one-time licence |
+| Is a subscription forced? | paid tiers for the unlocked features | no — a monthly plan or a one-time licence |
 | Is there a free trial? | limited free tier | 7 days, features identical to the licensed build |
 | What does the program see? | a drive letter, but with network-drive semantics for many apps | a real local volume (`E:`) under "This PC → Devices and drives", with thumbnails, Windows Search and backup-tool support |
 | Do you have to install a file-system driver? | driverless network mapping | nothing for you to install — the app sets up its own open-source user-mode file-system driver (Dokany, LGPL) on first launch; you never need WinFsp or FUSE |
